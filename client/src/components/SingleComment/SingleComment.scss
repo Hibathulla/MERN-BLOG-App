@@ -1,0 +1,17 @@
+.singlecomment {
+    background-color: #fff;
+    padding: .09rem 1.5rem;
+    box-shadow: 0 .8rem 1rem rgba(0,0,0,.1);
+    border-radius: 10px;
+    width: 100%;
+    text-transform: capitalize;
+
+    &:not(:last-child) {
+        margin-bottom: 1.3rem;
+    }
+
+    &__one {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+}

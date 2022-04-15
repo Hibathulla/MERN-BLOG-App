@@ -1,0 +1,66 @@
+.single {
+    flex-basis: 75%;
+    padding: 1rem 2.5rem;
+
+    &__simg {
+        width: 50%;
+        margin: auto;
+    }
+
+    &__simg1 {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 7px;
+
+        // @media screen and (max-width: 480px) {
+        //     width: 120%;
+        // }
+    }
+
+    &__titlebox {
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 3rem;
+        opacity: 80%;
+
+        @media screen and (max-width: 480px) {
+            font-size: 3rem;
+        }
+    }
+
+    &__date {
+        font-size: 1.3rem;
+        font-weight: bold;
+        width: 6.5rem;
+        background-color: red;
+        padding: .9rem;
+        border-radius: 7px;
+        background-color: #2D31FA;
+        color: #fff;
+    }
+
+    &__para {
+        max-width: 100%;
+        font-size: 1.7rem;
+        line-height: 1.5;
+        text-align: justify;
+        opacity: 80%;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+
+        @media screen and (max-width: 480px) {
+            font-size: 2.1rem;
+        }
+    }
+
+    &__para::first-letter {
+        margin-left: 2rem;
+        font-size: 3rem;
+        font-weight: 600px;
+        color: #2D31FA;
+    }
+
+    
+}

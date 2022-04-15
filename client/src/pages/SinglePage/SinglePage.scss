@@ -1,0 +1,10 @@
+.pages {
+    display: flex;
+    padding: 2rem;
+
+    flex-direction: column;
+}
+
+.noSide {
+    display: none;
+}

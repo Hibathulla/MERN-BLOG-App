@@ -1,0 +1,90 @@
+.about {
+
+    padding: 4rem;
+
+    &__details {
+        display: flex;
+
+        @media screen and (max-width: 480px) {
+            flex-direction: column;
+        }
+    }
+
+    &__mainlefttitle {
+        margin-top: 2rem;
+        color: #5d5d5d;
+        font-size: 2.1rem;
+
+        @media screen and (max-width: 480px) {
+            font-size: 1.7rem;
+        }
+    }
+
+    &__title {
+        font-size: 4.5rem;
+        opacity: 75%;
+      
+        @media screen and (max-width: 480px) {
+            font-size:4rem;
+        }
+    }
+   
+    
+    &__title:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 0; /* This will center the border. */
+        width: 7%; /* Change this to whatever width you want. */
+        padding-top: 8px; /* This creates some space between the element and the border. */
+        border-bottom: 3px solid black; /* This creates the border. Replace black with whatever color you want. */
+
+        @media screen and (max-width: 480px) {
+            width: 24%;
+        }
+    }
+
+    &__paragraph {
+        font-family: sans-serif;
+        font-size: 1.7rem;
+        line-height: 1.5;
+        opacity: 85%;
+    }
+
+    &__btn {
+        border: none;
+        background-color: #2D31FA;
+        cursor: pointer;
+        padding: 1.2rem 3rem;
+        color: #fff;
+        font-size: 2rem;
+        letter-spacing: .5rem;
+        margin-top: 2rem;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: #1d20c2;
+            color: #fff;
+
+        }
+    }
+
+    &__social {
+        margin: 3rem 2rem;
+    }
+
+    &__socialicons {
+        font-size: 4rem;
+        padding: 0 1rem;
+        color: #3d3d3d;
+        cursor: pointer;
+
+        &:hover {
+            color: #2D31FA;
+        }
+    }
+
+    &__image {
+        width: 80%;
+    }
+}
+

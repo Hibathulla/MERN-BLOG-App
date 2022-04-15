@@ -1,0 +1,65 @@
+.singlepost {
+    width: 35rem;
+    box-shadow: 0 1rem 1.7rem rgba(0,0,0,0.1);
+    margin: 3rem auto 2rem 0;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #F3F8FF;
+
+    &:not(:last-child) {
+        margin-right: 8rem;
+    }
+    // background-color: blue;
+
+    @media screen and (max-width: 480px) {
+        margin: 3rem auto 2rem auto;
+    }
+
+    &__image {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 7px;
+    }
+
+    &__info {
+        padding: 1.5rem 2rem;
+    }
+
+    &__cat {
+        background-color: #2D31FA;
+        width: 9rem;
+        padding: .5rem;
+        text-align: center;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        opacity: 80%;
+        text-decoration: none;
+        list-style: none;
+        color: black;
+
+        &:hover {
+            opacity: 100%;
+        }
+
+        &:focus {
+            transform: translateY(1.5%);
+        }
+    }
+
+    &__date {
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        opacity: 90%;
+    }
+}

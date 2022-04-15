@@ -1,0 +1,29 @@
+.allCommentslist {
+    // background-color: orange;
+    width: 80%;
+    overflow-y: auto;
+    height: 25rem;
+    scroll-behavior: auto;
+    padding: 1rem 2rem;
+
+    &::-webkit-scrollbar {
+        width: 5px;
+      }
+    
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+    
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }  
+
+    @media screen and (max-width: 480px) {
+        text-align: center;
+    }
+}
+

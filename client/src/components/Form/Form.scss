@@ -1,0 +1,187 @@
+.write {
+    padding: 5rem;
+    // background-color: red;
+
+    &__heading {
+       font-size: 4rem;
+       opacity: 80%;
+    }
+
+    &__inputbox {
+        display: flex;
+        flex-direction: column;
+
+        & > span {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: red;
+        }
+    }
+
+    &__showBox {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__imageLink {
+        display: block;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1.3rem .9rem;
+        text-transform: capitalize;
+        border-radius: 9px 9px 0 0;
+        width: 40%;
+        border-bottom: 2px solid #2D31FA;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+
+        @media screen and (max-width: 480px) {
+            width: 60%;
+            font-size: 1.7rem;
+        }
+    }
+
+    // &__file {
+    //     font-size: 2rem;
+    //     width: 15rem;
+    //     height: 4rem;
+    //     border-radius: 10px;
+    //     background-color: #2D31FA;
+    //     padding: .6rem 1rem;
+    //     color: #fff;
+    //     cursor: pointer;
+    //     margin-bottom: 3rem;
+    // }
+
+    &__showImg {
+        width: 50%;
+        border-radius: 9px;
+        margin: 0 auto;
+        transition: all .5s;
+
+        @media screen and (max-width: 480px) {
+            width: 80%;
+        }
+    }
+
+    &__cat {
+        display: block;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: .9rem;
+        text-transform: capitalize;
+        border-radius: 9px 9px 0 0;
+        width: 20%;
+        border-bottom: 2px solid #2D31FA;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+
+        @media screen and (max-width: 480px) {
+            width: 45%;
+        }
+    }
+
+    &__text {
+        display: block;
+        border: none;
+        outline: none;
+        font-size: 3rem;
+        padding: 1rem 2rem;
+        border-radius: 9px 9px 0 0;
+        width: 60%;
+        border-bottom: 2px solid #2D31FA;
+        margin-bottom: 3rem;
+        text-transform: capitalize;
+
+        &:focus {
+            outline: none;
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 75%;
+        }
+    }
+
+    &__words {
+        display: block;
+        border: none;
+        outline: none;
+        font-size: 2.5rem;
+        padding: 1rem;
+        border-radius: 9px 9px 0 0;
+        width: 80%;
+        border-bottom: 2px solid #2D31FA;
+        margin-bottom: 3rem;
+        word-wrap: break-word;
+
+        &:focus {
+            outline: none;
+        }   
+
+        @media screen and (max-width: 480px) {
+            width: 100%;
+        }
+    }
+
+    &__date {
+        border: none;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        cursor: pointer;
+        border-bottom: 2px solid #2D31FA;
+        color: #2D31FA;
+        width: 15%;
+
+        @media screen and (max-width: 480px) {
+            width: 40%;
+        }
+    }
+
+    &__submit {
+        border: none;
+        background-color: #2D31FA;
+        color: #fff;
+        padding: .7rem;
+        border-radius: 7px;
+        width: 8rem;
+        cursor: pointer;
+        transition: background-color .3s;
+
+        &:hover {
+            background-color: #1417c5;
+        }
+    }
+}
+
+.notLog {
+    padding: 4rem 5rem;
+    text-align: center;
+
+    &__message {
+        font-size: 3rem;
+        font-weight: 600;
+        opacity: 70%;
+    }
+
+    &__message:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 35%; /* Change this to whatever width you want. */
+        padding-top: 8px; /* This creates some space between the element and the border. */
+        border-bottom: 3px solid black; /* This creates the border. Replace black with whatever color you want. */
+    }
+
+    &__img {
+        width: 30%;
+
+        @media screen and (max-width: 480px) {
+            width: 90%;
+        }
+    }
+}

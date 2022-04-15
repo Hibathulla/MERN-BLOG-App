@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height:100%;
+}
+
+@media (max-width: 480px) {
+    html {
+      font-size: 59%;
+    }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #F9F9F9;   /* Height of the footer */
+}

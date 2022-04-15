@@ -1,0 +1,34 @@
+.posts {
+    flex-basis: 75%;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0 1.5rem;
+
+    @media screen and (max-width: 480px) {
+        order: 1;
+        flex-basis: 85%;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        opacity: 75%;
+        align-self: flex-start;
+        flex-basis: 100%;
+    }
+
+    &__title:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        width: 11%; /* Change this to whatever width you want. */
+        padding-top: 8px; /* This creates some space between the element and the border. */
+        border-bottom: 3px solid black; /* This creates the border. Replace black with whatever color you want. */
+    }
+}
+
+.spinner {
+    flex-basis: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
