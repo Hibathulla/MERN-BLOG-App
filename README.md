@@ -8,7 +8,7 @@
 * MongoDB Database is used to save the details of user, posts and comments.
 * Also this app is fully mobile responsive.
 
-Packages Used in React.js: React router DOM, Redux toolkit, sass, axios, font-awesome icons
+Packages Used in React.js: React router DOM, Redux toolkit, sass, axios, font-awesome icons <br />
 Packages Used in Node.js: Express.js, bcrypt, mongoose.
 
 ### Features
