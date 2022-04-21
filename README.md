@@ -25,27 +25,27 @@ Live project link: https://daily-diary-blog.herokuapp.com/home
 
 Feel free to explore and contribute😊
 
-###To run the API,
+### To run the API,
 ```
-cd api
+## cd api
 
 ```
 
 
 ```
-npm start
+## npm start
 
 ```
 ___
 ###To run Frontend Application,
 ```
-##cd client
+## cd client
 
 ```
 
 
 ```
-##npm run start
+## npm run start
 
 ```
 
