@@ -25,6 +25,8 @@ Live project link: https://daily-diary-blog.herokuapp.com/home
 
 Feel free to explore and contribute😊
 
+***
+
 ### To run the API,
 ```
 cd api
