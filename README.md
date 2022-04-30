@@ -21,7 +21,7 @@ Packages Used in Node.js: Express.js, bcrypt, mongoose.
 5. Add a new comment after Log in.
 6. Form Handling
 
-Live project link: https://daily-diary-blog.herokuapp.com/home
+Live project link: https://daily-diary-blog.herokuapp.com
 
 Feel free to explore and contribute😊
 
